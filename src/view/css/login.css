@@ -1,0 +1,184 @@
+/*设置无边框边距*/
+html,body{
+	margin: 0; 
+	padding: 0;
+    border: 0;
+    background-color: #ebf2f9;
+}
+/*按钮无边框并且无法拖动*/
+button{
+    border: 0;
+    -webkit-app-region: no-drag;
+}
+/*按钮获取焦点后无边框*/
+button:focus{
+    outline: 0;
+}
+input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+input:focus{
+    border: 0;
+    outline: 0;
+}
+/*设计上半部分样式*/
+.head {
+    background-image:url(../image/login_bg.png);
+    width: 100%;
+    height: 186px;
+    -webkit-app-region: drag;/*可拖动*/
+}
+
+.btn_sys{
+    height: 16px;
+    width: 36px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+
+.btn_close{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_close_normal.png);
+    width: 16px;
+    height: 100%;
+    float: right;
+}
+
+.btn_close:hover{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_close_hover.png);
+    width: 16px;
+    height: 100%;
+}
+
+.btn_close:active{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_close_down.png);
+    width: 16px;
+    height: 100%;
+}
+
+.btn_min{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_min_normal.png);
+    width: 16px;
+    height: 100%;
+}
+
+.btn_min:hover{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_min_hover.png);
+    width: 16px;
+    height: 100%;
+}
+
+.btn_min:active{
+    background-color: transparent;
+    background-image: url(../image/unify_btn_min_down.png);
+    width: 16px;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+}
+
+.head_img{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+}
+
+.head_div{
+    margin-left: 42px;
+    margin-top: 12px;
+    float: left;
+}
+
+.middle_div{
+    margin-left: 12px;
+    margin-top: 12px;
+    float: left;
+    width: 194px;
+}
+
+.right_div{
+    float:left;
+    margin-left: 10px;
+}
+
+.text_username_edit{
+    width: 190px;
+    height: 28px;
+    border: 1px solid #d2d2d2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px;
+}
+
+.text_username_edit:hover{
+    width: 190px;
+    height: 28px;
+    border: 1px solid #1583dd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px;
+}
+
+.text_passoword_edit{
+    width: 190px;
+    height: 28px;
+    border: 1px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1px;
+}
+
+.text_passoword_edit:hover{
+    width: 190px;
+    height: 28px;
+    border: 1px solid #1583dd;
+    border-bottom: 2px solid #1583dd;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1px;   
+}
+
+.btn_login{
+    width: 194px;
+    height: 30px;
+    border: 0;
+    background-color: transparent;
+    background-image: url(../image/button_login_normal.png);
+    color: white;
+    margin-top: 8px;
+    padding: 1px;
+}
+
+.btn_login:hover{
+    background-image: url(../image/button_login_hover.png);
+}
+
+.btn_login:active{
+    background-image: url(../image/button_login_down.png);
+}
+
+a{
+    font-size: 12px;
+    color: #2685E3;
+}
+
+a:hover{
+    font-size: 12px;
+    color: #2685E3;
+    text-decoration:underline;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}

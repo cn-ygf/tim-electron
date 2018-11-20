@@ -1,0 +1,10 @@
+{
+    "name": "TIM",
+    "version": "1.0.1",
+    "main": "src/main.js",
+    "description": "tencent tim",
+    "author": "ygf@cnhonker.com",
+    "scripts": {
+      "start": "electron ."
+    }
+  }

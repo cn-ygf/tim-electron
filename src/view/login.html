@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TIM登录</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css" />
+</head>
+<body>
+    <!--上半部分-->
+    <div class="head">
+        <!--系统按钮-->
+        <div class="btn_sys">
+            <button class="btn_min"></button>
+            <button class="btn_close" id="btn_close" onclick="on_btn_close()"></button>
+        </div>
+    </div>
+    <!--下半部分-->
+    <div class="footer">
+        <div class="head_div">
+            <!--头像-->
+            <img src="image/241_100.gif" class="head_img"/>
+        </div>
+        <div class="middle_div">
+            <div class="text_username_edit">
+                <input type="text" placeholder="账号/手机/邮箱"/>
+            </div>
+            <div class="text_passoword_edit">
+                <input type="password"/>
+            </div>
+            <div>
+                <button class="btn_login" onclick="on_btn_login()">登  录</button>
+            </div>
+        </div>
+        <div class="right_div">
+            <p><a src="#">注册账号</a></p>
+            <p><a>找回密码</a></p>
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+</html>
